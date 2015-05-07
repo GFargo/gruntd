@@ -1,12 +1,25 @@
 # Grunt'd
 
----
+**Grunt'd**
+*verb*
+- The process of adding Grunt.js Task Runner to a project
 
-Easily add Grunt to any project
+
+The goal of this repo is to expedite adding Grunt to any project that requires Front-End Development work.  This repo takes advantage of Javascripts `module.exports` functionality in order to compartmentalize and simplify the management of Grunt'd projects.
+
+---
 
 ## Getting Setup
 
-### Installing Grunt & Dependant Packages
+#### Updating `Project.js`
+
+`project.js` contains all the project specific information for the project.  Provides _paths_ array with entries pointed to webroot, css, js and scss directories.
+
+---
+
+## Grunt Tasks
+
+#### Installing Grunt & Dependant Packages
 If you haven't installed Grunt CLI Tools then you'll first need to run the following command.
 
 `$ npm install -g grunt-cli`
@@ -17,14 +30,6 @@ After Grunt CLI is installed navigate to the root directory of the project and e
 
 You should now be all ready to execute your grunt tasks.
 
-
-### Updating `Project.js`
-
-`project.js` contains all the project specific information for the project.  Provides _paths_ array with entries pointed to webroot, css, js and scss directories.
-
-
-
-## Grunt Tasks
 
 ### Dev Tasks:
 - `js-dist`
