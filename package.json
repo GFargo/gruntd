@@ -7,7 +7,7 @@
   "author": "GFargo <griffen.fargo@lycos-inc.com>",
   "repository": {
     "type": "git",
-    "url": "git@github.com:LycosMedia/lycos-mail.git"
+    "url": "url-to-git-repo"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
