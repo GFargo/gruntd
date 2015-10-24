@@ -1,9 +1,9 @@
 module.exports = {
 	paths: {
 		webroot: 'app/web',
-		sass: 'app/web/static/mail/scss',
-		css: 'app/web/static/mail/css',
-		js: 'app/web/static/mail/js',
+		sass: 'app/lygo/static/<%= pkg.name %>/scss',
+		css: 'app/lygo/static/<%= pkg.name %>/css',
+		js: 'app/lygo/static/<%= pkg.name %>/js',
 	},
 	banner:
 		'/*!\n' +

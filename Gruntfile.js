@@ -2,7 +2,13 @@ module.exports = function(grunt) {
 
   /*****************************************************
 
-    Lycos Mail
+    Grunt'd
+
+    This 'plop-in' plugin was created to expedite the
+    process of adding the required files for front-end
+    development.
+
+    This includes template scss files and `main.js`
 
     Packages:
       -> grunt-uncss

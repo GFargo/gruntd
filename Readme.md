@@ -10,7 +10,14 @@ The goal of this repo is to expedite adding Grunt to any project that requires F
 
 ## Getting Setup
 
-Start by copying this repo 
+Start by copying these files & directories into the desired project folder:
+
+- `assets`
+- `build`
+- `Gruntfile.js`
+- `package.json`
+
+
 
 #### Updating `Project.js`
 
