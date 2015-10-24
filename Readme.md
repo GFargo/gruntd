@@ -48,7 +48,9 @@ You should now be all ready to execute your grunt tasks.
 
 
 TODO: 
-- Create css-dist task
-- Create watch-js task
-
+- [ ] css-dist task
+- [ ] watch-js task
+- [ ] document main.js file in readme
+- [ ] document javascript concat task
+- [ ] document all tasks where directories or configs will be modified
 
