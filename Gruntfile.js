@@ -37,7 +37,7 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
 
     // Project Config
-    project: require('./build/config/project'),
+    project: require('./build/grunt-config/project'),
 
     /*
       CSS
@@ -47,10 +47,10 @@ module.exports = function(grunt) {
       Autoprefixer - Used to Automatically Insert Browser Prefixes https://github.com/nDmitry/grunt-autoprefixer
       UNCSS - Used to locate unused CSS rules
     */
-    sass: require('./build/config/sass'),
-    csscss: require('./build/config/csscss'),
-    autoprefixer: require('./build/config/autoprefixer'),
-    uncss: require('./build/config/uncss'),
+    sass: require('./build/grunt-config/sass'),
+    csscss: require('./build/grunt-config/csscss'),
+    autoprefixer: require('./build/grunt-config/autoprefixer'),
+    uncss: require('./build/grunt-config/uncss'),
 
 
     /*
@@ -61,14 +61,14 @@ module.exports = function(grunt) {
       jshint - Lint Javascript
       qunit -  Unit Testing
     */
-    concat: require('./build/config/concat'),
-    uglify: require('./build/config/uglify'),
-    jshint: require('./build/config/jshint'),
-    qunit: require('./build/config/qunit'),
+    concat: require('./build/grunt-config/concat'),
+    uglify: require('./build/grunt-config/uglify'),
+    jshint: require('./build/grunt-config/jshint'),
+    qunit: require('./build/grunt-config/qunit'),
 
 
     // Watch Config
-    watch: require('./build/config/watch.js'),
+    watch: require('./build/grunt-config/watch.js'),
 
   });
 

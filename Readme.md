@@ -50,6 +50,7 @@ You should now be all ready to execute your grunt tasks.
 TODO: 
 - [ ] css-dist task
 - [ ] watch-js task
+- [ ] qunitjs task
 - [ ] document main.js file in readme
 - [ ] document javascript concat task
 - [ ] document all tasks where directories or configs will be modified
